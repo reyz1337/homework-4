@@ -21,7 +21,8 @@
     </label>
     <label>
         <p>E-mail<br>
-        <input type="email" name="email">
+        <input type="email" name="email"><br>
+        <span>We'll never share your email with anyone else.</span>
         </p>
     </label>
     <label for="male">
@@ -36,6 +37,7 @@
         <p>
             Country<br>
             <select name="country" placeholder="Select">
+                <option value="Select">Select</option>
                 <option value="Ukraine">Ukraine</option>
                 <option value="Germany">Germany</option>
                 <option value="Poland">Poland</option>
@@ -55,12 +57,22 @@
     <p>
         <button type="submit">Sign Up</button>
     </p>
+    <p>
+        <span>By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">Term of use</a> and <a href="#">Privacy Policy</a></span>
+    </p>
+    <p>
+        <span>Have an account?</span>
+        <span><a href="#">Log In</a></span>
+    </p>
     </form>
     <p>
     <h2>Profile</h2>
     <form action="#">
         <div>
+            <img src="img/Image.png" alt="avatar">
             <input type="file">
+            <button type="reset">&nbsp;</button>
+            <span>Up to 1 MB (300x300 px)</span>
         </div>
         <label>
         <p>
@@ -76,6 +88,7 @@
         <p>
             Country<br>
             <select name="country" placeholder="Select">
+                <option value="Select">Select</option>
                 <option value="Ukraine">Ukraine</option>
                 <option value="Germany">Germany</option>
                 <option value="Poland">Poland</option>
